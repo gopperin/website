@@ -1,0 +1,15 @@
+enable : true
+heading : 关于
+headingSpan : 我们
+aboutItem : 
+- icon : tf-tools
+  title : 创新
+  content : 区块链转变了信息拥有模式，从单一所有者拥有信息，转变为资产或交易的整个记录生命周期可以共享。新的模式是基于状态而不是基于消息传递的通信。过去模糊的信息现在清晰可见。
+
+- icon : tf-strategy
+  title : 专业
+  content : 依靠区块链来提供安全性和高可用性。通过在不同利益的多方之间分配信任来实现价值流通。核心为自有公链|Hyperledger及周边配套（钱包、交易所、DAPPs） 
+
+- icon : tf-anchor2
+  title : 监管
+  content : 技术驱动型监管采纳行业内最先进的技术，系统地构建基于区块链|大数据AI|云计算技术为核心的监管体系，以数字化监管、即时监管和动态监管的方式，进行全方位的监管，提高监管效率。
