@@ -1,5 +1,5 @@
-baseURL = "http://www.fifu.io/"
-languageCode = "en-us"
+baseURL = "http://www.gopper.in/"
+languageCode = "zh-cn"
 title = "GOPPER.IN | AI Blockchain Cloud Stacks"
 theme = "meghna-hugo"
 
