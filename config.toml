@@ -26,14 +26,9 @@ theme = "meghna-hugo"
     weight = 5
 
     [[menu.nav]]
-    name = "Blog"
-    URL = "blog"
-    weight = 6
-
-    [[menu.nav]]
     name = "联系"
     URL = "contact-us"
-    weight = 7
+    weight = 6
 
 # Site params
 [params]
@@ -45,8 +40,8 @@ logo = "images/logo.png"
     enable = true
     bgImage = "images/slider/hero-area.jpg"
     icon = "tf-genius"
-    heading = "构建新型智能经济生态"
-    content= "GOPPER.IN 依托 AI | Blockchain | Cloud 等新型技术和创新型的经济模式，通过服务于各行业的应用，构建经济商业模式和组织形式的新型价值信任网络"
+    heading = "构建智能生态体系"
+    content= "GOPPER.IN 依托 AI | Cloud 等新型技术和创新型的经济模式，通过解决碎片化系统中的互操作性、信任和透明性问题，助力企业实现新业务流程和持续改进现有业务流程，从而实现战略业务目标"
     btn = true
     btnText="我们的服务"
     btnURL="#services"
@@ -54,8 +49,8 @@ logo = "images/logo.png"
     # call to action
     [params.cta]
     enable = true
-    title = "致力于打造基于区块链的新型商业生态体系"
-    content = "通过优质服务和样板工程，积极拓展潜在的客户，目前已经与数家国内外知名企业及上市公司保持良好、密切的合作。同时，我们也愿意帮助国内众多中小企业，以最便捷最低成本的方式引入区块链技术。"
+    title = "致力于打造基于BlockChain的新型商业生态体系"
+    content = "通过优质服务和样板工程，积极拓展潜在的客户，目前已经与数家国内外知名企业及上市公司保持良好、密切的合作。同时，我们也愿意帮助国内众多中小企业，以最便捷最低成本的方式引入BlockChain技术。"
     btnURL = "#contact-us"
     btnText = "展开合作"
 
