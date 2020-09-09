@@ -1,6 +1,6 @@
 baseURL = "http://www.gopper.in/"
 languageCode = "zh-cn"
-title = "GOPPER.IN | AI Blockchain Cloud Stacks"
+title = "GOPPER.IN | AI 区块链 Cloud Stacks"
 theme = "meghna-hugo"
 
 # Menu
@@ -49,8 +49,8 @@ logo = "images/logo.png"
     # call to action
     [params.cta]
     enable = true
-    title = "致力于打造基于BlockChain的新型商业生态体系"
-    content = "通过优质服务和样板工程，积极拓展潜在的客户，目前已经与数家国内外知名企业及上市公司保持良好、密切的合作。同时，我们也愿意帮助国内众多中小企业，以最便捷最低成本的方式引入BlockChain技术。"
+    title = "致力于打造基于区块链的新型商业生态体系"
+    content = "通过优质服务和样板工程，积极拓展潜在的客户，目前已经与数家国内外知名企业及上市公司保持良好、密切的合作。同时，我们也愿意帮助国内众多中小企业，以最便捷最低成本的方式引入区块链技术。"
     btnURL = "#contact-us"
     btnText = "展开合作"
 

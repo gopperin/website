@@ -1,12 +1,12 @@
 enable : true
 heading : 我们
 headingSpan : 的技能栈
-title : BlockChain|云计算|大数据|应用开发领域
-content : 拥有丰富的软件开发经验，基于BlockChain、云计算、大数据等技术，有相应的行业解决方案及丰富的应用案例
+title : 区块链|云计算|大数据|应用开发领域
+content : 拥有丰富的软件开发经验，基于区块链、云计算、大数据等技术，有相应的行业解决方案及丰富的应用案例
 image : images/about/company-growth.png
 skillItem :
   - itemNumber : 01- 
-    itemName :  BlockChain底层及DAPP开发
+    itemName :  区块链底层及DAPP开发
     itemPercent : 90%
     
   - itemNumber : 02-

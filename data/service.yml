@@ -3,16 +3,16 @@ heading : 我们的
 headingSpan : 服务
 serviceItem :
   - icon : tf-globe
-    title : BlockChain平台及解决方案
-    content : BlockChain公链研发，安全离线软件钱包及硬件钱包，智能合约开发及DAPP生态建设。完善的行业上下游配套，交易所对接及社区流量导流。
+    title : 区块链平台及解决方案
+    content : 区块链公链研发，安全离线软件钱包及硬件钱包，智能合约开发及DAPP生态建设。完善的行业上下游配套，交易所对接及社区流量导流。
 
   - icon : tf-dial
-    title : BlockChain概念验证
-    content : BlockChain的商业应用本应该是为解决具体场景中的痛点而来，许多应用场景还在尝试阶段，我们配合相关方进行具体场景的概念证明，产品POC交付。
+    title : 区块链概念验证
+    content : 区块链的商业应用本应该是为解决具体场景中的痛点而来，许多应用场景还在尝试阶段，我们配合相关方进行具体场景的概念证明，产品POC交付。
     
   - icon : tf-lifesaver
-    title : BlockChain咨询培训
-    content : 提供基于BlockChain底层技术和商业模式的培训和商业咨询服务。BlockChain不仅是技术更是模式的变革，通过BlockChain思维建设新型的BlockChain业务形态。
+    title : 区块链咨询培训
+    content : 提供基于区块链底层技术和商业模式的培训和商业咨询服务。区块链不仅是技术更是模式的变革，通过区块链思维建设新型的区块链业务形态。
 
   - icon : tf-ion-cloud
     title : 云计算平台及解决方案

@@ -1,5 +1,5 @@
 ---
-title: "使用 BPM 和BlockChain实现数字流程自动化"
+title: "使用 BPM 和区块链实现数字流程自动化"
 date: 2019-04-25T14:51:12+06:00
 author: Larissa Auberger 和 Matthias Kloppmann
 ---
@@ -35,11 +35,11 @@ author: Larissa Auberger 和 Matthias Kloppmann
 但是，如果业务网络包含一个维护单一事实版本的分布式账本，那么该账本需要提供接口。参与者在账本上获取和更新信息，并在信息被其他人更新时对事件做出反应。通过使用分布式账本作为基础记录系统，所有参与者都能实现重大的业务流程改进。
 
 区块链实战
-如果不熟悉区块链的功能，请查阅 IBM Blockchain 租车演示。该演示遍历了一辆车从诞生一直到被处置的生命周期，展示了如何在区块链上记录供应链的每个阶段。
+如果不熟悉区块链的功能，请查阅 IBM 区块链 租车演示。该演示遍历了一辆车从诞生一直到被处置的生命周期，展示了如何在区块链上记录供应链的每个阶段。
 
 在该场景的初始步骤中，政府监管者为新车创建登记信息并将其存储在区块链中。然后监管者通过在区块链上调用一个事务，将车辆所有权转交给制造商。制造商制造车辆，在区块链上的车辆模板中添加相关的车辆细节。接下来，车辆被售于经销商，然后转移到租车公司。在车辆被租给新的所有者后，区块链再次更新所有者的细节。最后，在车辆终止使用时，废物回收商可以更新区块链，以表明该车辆已被处置。
 
-您可以将 IBM Blockchain 租车演示部署到 IBM Cloud 中来自行试用区块链。在 GitHub 中的 IBM-Blockchain/car-lease-demo 上获取工件。
+您可以将 IBM 区块链 租车演示部署到 IBM Cloud 中来自行试用区块链。在 GitHub 中的 IBM-区块链/car-lease-demo 上获取工件。
 
 > 完美搭档：业务流程管理与区块链
 因为该演示专注于区块链概念，所以它没有考虑在每个参与方幕后运行的内部业务流程。要体现一种业务流程管理方法，需要考虑经销商处的业务流程是什么样的。
@@ -66,20 +66,20 @@ author: Larissa Auberger 和 Matthias Kloppmann
 
 这个示例展示了业务流程管理和区块链如何相互补充，以及组合解决方案如何为业务流程的更高集成和自动化水平清除障碍。
 
-以下各节将介绍实现 IBM BPM 和 IBM Blockchain 解决方案的细节。您将学习如何查询资产和从业务流程中调用事务。
+以下各节将介绍实现 IBM BPM 和 IBM 区块链 解决方案的细节。您将学习如何查询资产和从业务流程中调用事务。
 
 > 在业务流程中使用区块链资产
 更深入地分析实现细节，并通过查询数据和在区块链上发起事务，了解流程如何与区块链数据交互。
 
 本教程将详细介绍以下步骤：
 
-从 IBM BPM 中发现 IBM Blockchain 服务。
+从 IBM BPM 中发现 IBM 区块链 服务。
 创建一个服务流，以便使用已发现的服务获取资产数据并提供给流程。
 如果您已经具备业务流程开发知识，本教程还会大体介绍以下步骤：
 
-创建另一个服务流，以便使用已发现的服务在 IBM Blockchain 上执行事务。
-开发一个简单的流程，供业务用户处理 IBM Blockchain 数据和发起事务。
-要了解如何使用 IBM BPM 实现该场景，可以从 GitHub 下载一个示例 .twx 文件，地址为 LarissaAuberger/bpm-blockchain。
+创建另一个服务流，以便使用已发现的服务在 IBM 区块链 上执行事务。
+开发一个简单的流程，供业务用户处理 IBM 区块链 数据和发起事务。
+要了解如何使用 IBM BPM 实现该场景，可以从 GitHub 下载一个示例 .twx 文件，地址为 LarissaAuberger/bpm-区块链。
 
 完成本教程需要做的准备工作
 本教程中的场景需要带累积修复包 2017.03 的 IBM BPM V8.5.7，以及一个使用在 Hyperledger Fabric 上运行的 Hyperledger Composer 构建的区块链业务网络。Hyperledger 是一个 Linux Foundation 项目。Hyperledger Fabric 是区块链技术的一种开源实现。Hyperledger Composer 是一组开源开发工具，它们在 Hyperledger Fabric 上运行，用于快速开发区块链业务网络。
@@ -90,7 +90,7 @@ IBM BPM：如果没有所需级别的 IBM BPM，可以考虑使用 IBM BPM on Cl
 区块链业务网络：本教程使用了 Hyperledger Composer 提供的数字财产网络示例。该数字财产网络包含想购买或销售数字财产的参与者。它还提供了接口来创建和移除数字财产，或者更新它们的属性，比如它们的所有权。请参阅 Hyperledger Composer 文档中的安装 Hyperledger Composer 和使用 Hyperledger Composer 进行安装和开发。Hyperledger Composer 包含 composer-rest-server 包，可通过该包轻松地设置一个使用该业务网络的 REST API 服务器。部署业务网络后，即可生成 REST API。
 从 IBM BPM 发现服务：您需要一个已生成的 REST API 的 Swagger 定义。要获取 Swagger 定义，可以访问 http://localhost:3000/explorer/swagger.json 并将 Swagger 定义保存到本地目录。为了让该文件更容易阅读，可以使用 http://jsonformatter.org 上的 JSON 格式化工具将其格式化。
 Hyperledger Composer REST API 服务器：确保您可以从您的 IBM BPM 环境访问该服务器。
-然后，从 GitHub 获取示例代码，地址为 LarissaAuberger/bpm-blockchain。
+然后，从 GitHub 获取示例代码，地址为 LarissaAuberger/bpm-区块链。
 
 开始行动
 理解您在本教程中实现的流程。当业务流程开始时，它会与数字财产网络交互，以便从业务网络中获取数字财产。在流程结束时，在数字财产网络上执行一个事务来更新数字财产。在流程开始到结束期间，有一个通用流程，它实现了处理资产所需的操作，如下图所示：
@@ -100,7 +100,7 @@ Hyperledger Composer REST API 服务器：确保您可以从您的 IBM BPM 环�
 
 注：可以使用其他 Hyperledger Composer 业务网络与 IBM BPM 进行集成。您只需要描述所选应用程序的 REST 接口的 Swagger 定义文件，以便能发现和使用本教程中介绍的服务。
 
-发现 IBM Blockchain 服务
+发现 IBM 区块链 服务
 在浏览器中，登录到您的 Web Process Designer。
 创建一个 Process App 并在 Web Process Designer 中打开它。
 从库中，选择 Services > New > External Service 来创建一个外部服务。
@@ -151,7 +151,7 @@ Swagger 文件中定义的一些操作需要一个编程方法来实现其调用
 您现在已拥有可用来从区块链获取数字财产并在区块链上执行事务的服务流。
 
 实现一个使用这些服务流并提供人工服务的流程，以便业务用户（您的流程参与者）能够使用这些服务流处理数字财产。
-提示：如果需要帮助，可以查看 GitHub 上的 .twx 文件中的示例流程，地址为 LarissaAuberger/bpm-blockchain。
+提示：如果需要帮助，可以查看 GitHub 上的 .twx 文件中的示例流程，地址为 LarissaAuberger/bpm-区块链。
 
 查看您的流程和区块链的实际运行情况
 根据 .twx 文件提供的示例流程应用程序，执行以下步骤。
