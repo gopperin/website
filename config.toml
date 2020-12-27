@@ -1,6 +1,6 @@
-baseURL = "http://www.gopper.in/"
+baseURL = "http://www.gopper.cn/"
 languageCode = "zh-cn"
-title = "GOPPER.IN | AI 区块链 Cloud Stacks"
+title = "绿蜂巢 GOPPER.CN | AI 区块链 Cloud Stacks"
 theme = "meghna-hugo"
 
 # Menu
@@ -41,7 +41,7 @@ logo = "images/logo.png"
     bgImage = "images/slider/hero-area.jpg"
     icon = "tf-genius"
     heading = "构建智慧生态体系"
-    content= "GOPPER.IN 依托 区块链 | 云计算 | AI 等新型技术和创新型的经济模式，通过解决碎片化系统中的互操作性、信任和透明性问题，助力企业实现新业务流程和持续改进现有业务流程，从而实现战略业务目标"
+    content= "绿蜂巢 GOPPER.CN 依托 区块链 | 云计算 | AI 等新型技术和创新型的经济模式，通过解决碎片化系统中的互操作性、信任和透明性问题，助力企业实现新业务流程和持续改进现有业务流程，从而实现战略业务目标"
     btn = true
     btnText="我们的服务"
     btnURL="#services"
@@ -80,8 +80,8 @@ logo = "images/logo.png"
     
     # footer
     [params.footer]
-        copyright = "Gopper.in"
-        copyrightURL = "http://www.gopper.in"
+        copyright = "Gopper.cn"
+        copyrightURL = "http://www.gopper.cn"
 
         # social Icons
         [[params.footer.socialIcon]]
