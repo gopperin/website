@@ -8,7 +8,7 @@ aboutItem :
 
 - icon : tf-strategy
   title : 专业
-  content : 依靠 区块链 来提供安全性和高可用性。通过在不同利益的多方之间分配信任来实现价值流通。核心为自有公链|Hyperledger及周边配套（钱包、交易所、DAPPs） 
+  content : 依靠 区块链 来提供安全性和高可用性。通过在不同利益的多方之间分配信任来实现价值流通。核心为Hyperledger及周边配套（浏览器、DAPP） 
 
 - icon : tf-anchor2
   title : 监管

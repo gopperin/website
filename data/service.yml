@@ -4,7 +4,7 @@ headingSpan : 服务
 serviceItem :
   - icon : tf-globe
     title : 区块链平台及解决方案
-    content : 区块链公链研发，安全离线软件钱包及硬件钱包，智能合约开发及DAPP生态建设。完善的行业上下游配套，交易所对接及社区流量导流。
+    content : 区块链公链研发，安全离线软件钱包及硬件钱包，智能合约开发及DAPP生态建设。完善的行业上下游配套，社区流量导流。
 
   - icon : tf-dial
     title : 区块链概念验证
