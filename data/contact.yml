@@ -2,15 +2,10 @@ enable : true
 heading : 联系
 headingSpan : 我们
 title : 联系方式
-content : GOPPER.CN 位于北京光华路SOHO，核心团队都来自于世界500强高科技企业，目前已经开发出高性能SAAS应用产品，同时团队具备多行业的业务分析能力，并能够基于数字化架构快速构建上层应用系统以满足多样化的商用业务场景。
-mapLatitude : 51.5223477
-mapLongitude: -0.1622023
+content : GOPPER.CN 位于北京市通州区，核心团队都来自于世界500强高科技企业，目前已经开发出高性能SAAS应用产品，同时团队具备多行业的业务分析能力，并能够基于数字化架构快速构建上层应用系统以满足多样化的商用业务场景。
 contactDetails :
   - icon : tf-map-pin
-    info : "北京市 朝阳区 光华路SOHO"
-    
-  - icon : tf-ion-ios-telephone-outline
-    info : "Tel: +86 010-85825202"
+    info : "北京市 通州区 榆景东路5号院55号楼2层101室1376"
     
   - icon : tf-ion-iphone
     info : "Phone: +86 13810167616"

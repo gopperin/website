@@ -1,6 +1,6 @@
 baseURL = "http://www.gopper.cn/"
 languageCode = "zh-cn"
-title = "绿蜂巢 GOPPER.CN | SAAS Stacks"
+title = "北京绿蜂巢网络 GOPPER.CN | SAAS Stacks"
 theme = "meghna-hugo"
 
 # Menu
@@ -41,7 +41,7 @@ logo = "images/logo.png"
     bgImage = "images/slider/hero-area.jpg"
     icon = "tf-genius"
     heading = "构建智慧生态体系"
-    content= "绿蜂巢 GOPPER.CN 依托 云计算 | AI 等新型技术和创新型的经济模式，通过解决碎片化系统中的互操作性、信任和透明性问题，助力中小企业实现新业务流程和持续改进现有业务流程，从而实现战略业务目标"
+    content= "北京绿蜂巢网络 GOPPER.CN 依托 云计算 | AI 等新型技术和创新型的经济模式，通过解决碎片化系统中的互操作性、信任和透明性问题，助力中小企业实现新业务流程和持续改进现有业务流程，从而实现战略业务目标"
     btn = true
     btnText="我们的服务"
     btnURL="#services"
