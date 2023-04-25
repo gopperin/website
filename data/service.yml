@@ -4,7 +4,7 @@ headingSpan : 服务
 serviceItem :
   - icon : tf-globe
     title : 数字化解决方案
-    content : 为各行业客户提供软件开发和系统集成服务
+    content : 为客户提供数字化服务
 
   - icon : tf-dial
     title : 数字化概念验证

@@ -2,7 +2,7 @@ enable : true
 heading : 联系
 headingSpan : 我们
 title : 联系方式
-content : GOPPER.CN 位于北京市通州区，具备多行业的业务分析能力，可以较快速构建上层应用系统以满足多样化的商用业务场景。
+content : 北京绿蜂巢网络技术有限公司 GOPPER.CN
 contactDetails :
   - icon : tf-map-pin
     info : "北京市 通州区 榆景东路5号院55号楼2层101室"
