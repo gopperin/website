@@ -3,26 +3,14 @@ heading : 我们的
 headingSpan : 服务
 serviceItem :
   - icon : tf-globe
-    title : 数字化SAAS平台及解决方案
-    content : 为通信、交通、政府等行业客户提供软件开发和系统集成服务，通过信息化、数字化和智能化手段，帮助企业提高生产力和管理效率，实现数字化转型
+    title : 数字化解决方案
+    content : 为各行业客户提供软件开发和系统集成服务
 
   - icon : tf-dial
     title : 数字化概念验证
-    content : 数字化的商业应用本应该是为解决具体场景中的痛点而来，许多应用场景还在尝试阶段，我们配合相关方进行具体场景的概念证明，产品POC交付。
-    
-  - icon : tf-lifesaver
-    title : 数字化咨询培训
-    content : 提供基于数字化技术和商业模式的培训和商业咨询服务。数字化不仅是技术更是模式的变革，通过数字化思维建设新型的数字化业务形态。
-
-  - icon : tf-ion-cloud
-    title : 云计算平台及解决方案
-    content : 基于OpenStack、Kubernetes技术打造一种能提供给企业不同场景的云服务平台，基于数据中心的操作系统，支持对服务的管理。
-    
-  - icon : tf-genius
-    title : 大数据|AI平台及解决方案
-    content : 企业级大数据集成、存储、查询、分析以及人工智能统一基础平台，帮助企业从海量数据信息中获取到真正的价值，及时洞察机会、预防风险。
+    content : 配合相关方进行概念证明，产品POC交付
     
   - icon : tf-ion-iphone
     title : 商业软件开发
-    content : 为政府、广大企业客户提供操作简单、功能全面、技术专业的各类软件开发服务，包括软件产品定制开发、APP开发、微信公众号、微信小程序开发。
+    content : 提供软件开发服务
     

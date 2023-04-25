@@ -1,4 +1,4 @@
-enable : true
+enable : false
 heading : 应用
 headingSpan : 案例
 filterList :
@@ -13,46 +13,3 @@ filterList :
 
   - filterType : human
     filterTitle : 个人    
-
-portfolioItem :
-  - types : block human
-    image : images/portfolio/1010.jpg
-    icon : tf-ion-android-search
-    URL : #
-    title : 数字身份系统
-    description : 主要围绕三个类型开展：身份验证、鉴证确权、共享信息。有助于打通机构内部以及机构之间的信息壁垒，实现互通共享、实时同步，减少协同中的摩擦，优化治理思维。
-
-  - types : buss block
-    image : images/portfolio/contract.jpg
-    icon : tf-ion-android-search
-    URL : #
-    title : 数字化合同存证
-    description : 数字合同，必须用户亲自签名，不可伪造，不可重复使用。合同内容不可篡改，确保最终签订的合同，就是之前审阅认可的合同，内容有任意地方做出修改都能被发现。
-        
-  - types : block finance buss
-    image : images/portfolio/1400.jpg
-    icon : tf-ion-android-search
-    URL : #
-    title : 数字化供应链票据融资
-    description : 基于ERC1400系列数字资产，汇集供应链核心企业的票据信息，高效低成本的解决中小企业融资问题，助力整条供应链的快速发展；为投资机构提供稳定安全的投资收益。
-
-  - types : block buss human
-    image : images/portfolio/product-04.jpg
-    icon : tf-ion-android-search
-    URL : #
-    title : 数字化食品溯源
-    description : 将牧场养殖、屠宰、物流、经销商、大批发商、超市/餐厅等环节全部打通，将每个环节的信息上链，用户可以看到相对应环节的信息等。
-       
-  - types : block buss
-    image : images/portfolio/product_05.jpg
-    icon : tf-ion-android-search
-    URL : #
-    title : 积分联盟系统
-    description : 有效促进积分流通。不同行业，不同企业各自发行不同的积分，对积分的查询和使用都不便捷，导致积分形同鸡肋，没有起到用户导流的作用。
- 
-  - types : block buss finance
-    image : images/portfolio/product_06.jpg
-    icon : tf-ion-android-search
-    URL : #
-    title : 资产数字化
-    description : 资产一旦在数字化上发行，后续流通环节可以不依赖于发行方系统，资产流通由单中心控制变成社会化传播，任何有资源的渠道都可以成为资产流通的催化剂。

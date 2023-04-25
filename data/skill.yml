@@ -1,31 +1,19 @@
 enable : true
 heading : 我们
 headingSpan : 的技能栈
-title : 云计算|大数据|数字化应用开发领域
-content : 拥有丰富的软件开发经验，基于云计算、大数据等数字化技术，有相应的行业解决方案及丰富的应用案例
-image : images/about/company-growth.png
+title : 应用开发
+content : 商业软件|移动APP|小程序
 skillItem :
-  - itemNumber : 01- 
-    itemName :  数字化底层及SAAS开发
-    itemPercent : 90%
     
-  - itemNumber : 02-
-    itemName :  云计算平台
-    itemPercent : 90%
-    
-  - itemNumber : 03-
-    itemName :  大数据平台|AI
-    itemPercent : 75%
-    
-  - itemNumber : 04-
+  - itemNumber : 01-
     itemName :  商业软件开发
     itemPercent : 95%
     
-  - itemNumber : 05-
+  - itemNumber : 02-
     itemName :  移动APP开发
     itemPercent : 75%
 
-  - itemNumber : 06-
+  - itemNumber : 03-
     itemName :  小程序开发
     itemPercent : 75%    
    
